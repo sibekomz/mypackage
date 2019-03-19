@@ -32,3 +32,7 @@ def factorial(n):
 def reverse(word):
 
     '''Return word in reverse'''
+    rev = word.split()
+    rev = rev[-1::-1]
+    result = " ".join(rev)
+    return result
